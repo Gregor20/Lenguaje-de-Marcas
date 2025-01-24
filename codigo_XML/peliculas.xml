@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE peliculas [
+    <!ELEMENT peliculas (pelicula+)>
+    <!ELEMENT pelicula (nombre+, director?, año, reparto, sinopsis)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT director (#PCDATA)>
+    <!ELEMENT año (#PCDATA)>
+    <!ELEMENT reparto (actor, actriz, actor)>
+    <!ELEMENT actor (#PCDATA)>
+    <!ELEMENT actriz (#PCDATA)>
+    <!ELEMENT sinopsis (#PCDATA)>
+
+    <!ATTLIST pelicula genero (fantastico | romance | drama | comedia | thriller) #REQUIRED>
+]>
+<peliculas>
+    <pelicula genero="fantastico">
+        <nombre>El curioso caso de Benjamin Button</nombre>
+        <director>David Fincher</director>
+        <año>2008</año>
+        <reparto>
+            <actor>Brad Pitt</actor>
+            <actriz>Cate Blanchett</actriz>
+            <actor>Jason Flemyng</actor>            
+        </reparto>
+        <sinopsis>Un hombre (Brad Pitt) nace con ochenta años y va rejuveneciendo a medida que pasa el tiempo; es decir, en lugar de cumplir años los descumple.</sinopsis>
+    </pelicula>
+    <pelicula genero="comedia">
+        <nombre>Forrest Gump</nombre>
+        <director>Robert Zemeckis</director>
+        <año>1994</año>
+        <reparto>
+            <actor>Tom Hanks</actor>
+            <actriz>Robin Wright</actriz>
+            <actor>Gary Sinise</actor>
+        </reparto>
+        <sinopsis>Forrest Gump (Tom Hanks) sufre desde pequeño un cierto retraso mental. A pesar de todo, gracias a su tenacidad y a su buen corazón será protagonista de acontecimientos cruciales de su país durante varias décadas.</sinopsis>
+    </pelicula>
+    <pelicula genero="thriller">
+        <nombre>El silencio de los corderos</nombre>
+        <director>Jonathan Demme</director>
+        <año>1991</año>
+        <reparto>
+            <actor>Anthony Hopkins</actor>
+            <actriz>Jodie Foster</actriz>
+            <actor>Scott Glenn</actor>
+        </reparto>
+        <sinopsis>El FBI busca a "Buffalo Bill", un asesino en serie que mata a sus víctimas, todas adolescentes, después de prepararlas minuciosamente y arrancarles la piel.</sinopsis>
+    </pelicula>
+</peliculas>

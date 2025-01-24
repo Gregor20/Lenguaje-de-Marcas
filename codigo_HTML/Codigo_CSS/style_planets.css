@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #eef;
+    
+}
+.h3, .h1{
+    text-align: center;
+}
+.t1, .t2{
+    display: inline-block;   /*Disposicion de la tabla : "inline block" quiere decir que se alinee en bloque, es decir en el "div"*/ 
+}
+.temps{
+    margin-left: 35px;
+}
+.atras{
+    text-align: right;
+}
+.mercurio, .venus, .tierra, .marte, .jupiter{
+    height: 300px;
+    width: auto;
+}
+
+.cabecera{
+    width: auto;
+}
+.datos{
+    text-align: left;
+}
