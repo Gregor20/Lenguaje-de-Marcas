@@ -3,175 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Codigo_CSS/style_planets.css">
+    <link rel="stylesheet" href="/codigo_HTML/Codigo_CSS/style_planets.css">
     <title>Planetas en detalle</title>
 </head>
 <body>
-    <table>
-        <caption>Planetas</caption>
+    <table class="tabla-planetas">
+        <caption class="cap">Planetas</caption>
         <thead>
             <tr class="cabecera">
                 <th>Imagen</th>
                 <th></th>            
                 <th class="datos">Datos</th>
+                <th>Imagen</th>
+                <th></th>
+                <th class="datos">Datos</th>
+                <th>Imagen</th>
+                <th></th>
+                <th class="datos">Datos</th>
             </tr>
         </thead>
         <tbody>
         <tr>
-            <tr>
-                <td rowspan="6"><img src="/imagenes/mercurio.jpg" alt="Mercurio" title="Mercurio" class="mercurio"></td>
-                <td>Distancia del sol(km):</td>
+                <td rowspan="6"><img src="imagenes/mercurio.jpg" alt="Mercurio" title="Mercurio" class="mercurio"></td>
+            <td>Distancia del sol(km):</td>
+            <td>149.6 million</td>
+                <td rowspan="6"><img src="imagenes/venus.jpg" alt="Venus" title="Venus" class="venus"></td>
+            <td>Distancia del sol(km) </td>
+            <td>108.2 million</td>
+                <td rowspan="6"><img src="imagenes/tierra.jpg" alt="Tierra" title="Tierra" class="tierra"></td>
+            <td>Distancia del sol(km) </td>
                 <td>149.6 million</td>
-            </tr>
-            <tr>    
-                <td>Radio(km):</td>
-                <td>2437</td>
-            </tr>   
-            <tr> 
-                <td>Gravedad:</td>
-                <td>3.7 m/s²</td>
-            </tr>    
-            <tr>
-                <td>Masa(kg):</td>
-                <td>3.301 x 10^23</td>
-            </tr>
-            <tr>        
-                <td>Duración del día (días terrestres):</td>
-                <td>58,6</td>
-            </tr>
-            <tr>    
-                <td>Temperatura(max/min):</td>
-                <td>430ºC/-173°C</td>            
-            </tr>    
         </tr>
         <tr>
-            <tr>
-                <td rowspan="6"><img src="/imagenes/venus.jpg" alt="Venus" title="Venus" class="venus"></td>
-                <td>Distancia del sol(km) </td>
-                <td>108.2 million</td>
-            </tr>
-            <tr>    
-                <td>Radio(km)</td>
-                <td>6052</td>
-            </tr>   
-            <tr> 
-                <td>Gravedad</td>
-                <td>8.87 m/s²</td>
-            </tr>    
-            <tr>
-                <td>Masa(kg)</td>
-                <td>4.8767 x 10^24</td>
-            </tr>
-            <tr>        
-                <td>Duración del día (días terrestres)</td>
-                <td>243</td>
-            </tr>
-            <tr>    
-                <td>Temperatura(max/min)</td>
-                <td>475ºC/462°C</td>            
-            </tr>
+            <td>Radio(km):</td>
+            <td>2437</td>
+            <td>Radio(km)</td>
+            <td>6052</td>
+            <td>Radio(km)</td>
+            <td>6371</td>
         </tr>
         <tr>
-            <tr>
-                <td rowspan="6"><img src="/imagenes/tierra.jpg" alt="Tierra" title="Tierra" class="tierra"></td>
-                <td>Distancia del sol(km) </td>
-                <td>149.6 million</td>
-            </tr>
-            <tr>    
-                <td>Radio(km)</td>
-                <td>6371</td>
-            </tr>   
-            <tr> 
-                <td>Gravedad</td>
-                <td>9.8 m/s²</td>
-            </tr>    
-            <tr>
-                <td>Masa(kg)</td>
-                <td>5.972 x 10^24</td>
-            </tr>
-            <tr>        
-                <td>Duración del día (días terrestres)</td>
-                <td>24h, 60m, 4s</td>
-            </tr>
-            <tr>    
-                <td>Temperatura(max/min)</td>
-                <td>58°C/-89°C</td>            
-            </tr>
+            <td>Gravedad:</td>
+            <td>3.7 m/s²</td>
+            <td>Gravedad</td>
+            <td>8.87 m/s²</td>
+            <td>Gravedad</td>
+            <td>9.8 m/s²</td>
         </tr>
         <tr>
+            <td>Masa(kg):</td>
+            <td>3.301 x 10^23</td>
+            <td>Masa(kg)</td>
+            <td>4.8767 x 10^24</td>
+            <td>Masa(kg)</td>
+            <td>5.972 x 10^24</td>
+        </tr>
+        <tr>
+            <td>Duración del día (días terrestres):</td>
+            <td>58,6</td>
+            <td>Duración del día (días terrestres)</td>
+            <td>243</td>
+            <td>Duración del día (días terrestres)</td>
+            <td>24h, 60m, 4s</td>
+        </tr>
+        <tr>
+            <td>Temperatura(max/min):</td>
+            <td>430ºC/-173°C</td>
+            <td>Temperatura(max/min)</td>
+            <td>475ºC/462°C</td>
+            <td>Temperatura(max/min)</td>
+            <td>58°C/-89°C</td>    
+        </tr>
+        </tbody>
+        <hr>
+        <tbody>
             <tr>
-                <td rowspan="6"><img src="/imagenes/marte.jpg" alt="Marte" title="Marte" class="marte"></td>
+                <td rowspan="6"><img src="imagenes/marte.jpg" alt="Marte" title="Marte" class="marte"></td>
                 <td>Distancia del sol(km) </td>
                 <td>227,943,824</td>
-            </tr>
-            <tr>    
-                <td>Radio(km)</td>
-                <td>3389</td>
-            </tr>   
-            <tr> 
-                <td>Gravedad</td>
-                <td>3.71 m/s²</td>
-            </tr>    
-            <tr>
-                <td>Masa(kg)</td>
-                <td>6.417 x 10^23</td>
-            </tr>
-            <tr>
-                <td>Duración del día (días terrestres)</td>
-                <td>1.03</td>
-            </tr>
-            <tr>
-                <td>Temperatura(max/min)</td>
-                <td>20°C/-125°C</td>
-            </tr>
-        </tr>
-        <tr>
-                <td rowspan="6"><img src="/imagenes/jupiter.jpg" alt="Júpiter" title="Júpiter" class="jupiter"></td>
+                <td rowspan="6"><img src="imagenes/jupiter.jpg" alt="Jupiter" title="Jupiter" class="jupiter"></td>
                 <td>Distancia del sol(km) </td>
                 <td>750 millones</td>
-            </tr>
-            <tr>    
-                <td>Radio(km)</td>
-                <td>69,911</td>
-            </tr>   
-            <tr> 
-                <td>Gravedad</td>
-                <td>24.79 m/s²</td>
-            </tr>    
-            <tr>
-                <td>Masa(kg)</td>
-                <td>1.898 x 10^27</td>
-            </tr>
-            <tr>
-                <td>Duración del día (días terrestres)</td>
-                <td>0d 9h 56m</td>
-            </tr>
-            <tr>
-                <td>Temperatura(max/min)</td>
-                <td>-75°C/-163°C</td>
-            </tr>
-        </tr>
-        <tr>
-                            <td rowspan="6"><img src="/imagenes/saturno.jpg" alt="Saturno" title="Saturno" class="saturno"></td>
+                <td rowspan="6"><img src="imagenes/saturno.jpg" alt="Saturno" title="Saturno" class="saturno"></td>
                 <td>Distancia del sol(km) </td>
                 <td>1,429 million</td>
             </tr>
             <tr>    
                 <td>Radio(km)</td>
+                <td>3389</td>
+                <td>Radio(km)</td>
+                <td>69,911</td>
+                <td>Radio(km)</td>
                 <td>58,232</td>
             </tr>   
             <tr> 
+                <td>Gravedad</td>
+                <td>3.71 m/s²</td>
+                <td>Gravedad</td>
+                <td>24.79 m/s²</td>
                 <td>Gravedad</td>
                 <td>10.44 m/s²</td>
             </tr>    
             <tr>
                 <td>Masa(kg)</td>
+                <td>6.417 x 10^23</td>
+                <td>Masa(kg)</td>
+                <td>1.898 x 10^27</td>
+                <td>Masa(kg)</td>
                 <td>5.683 x 10^26</td>
             </tr>
-        </tr>
-        
+            <tr>
+                <td>Duración del día (días terrestres)</td>
+                <td>1.03</td>
+                <td>Duración del día (días terrestres)</td>
+                <td>0d 9h 56m</td>
+                <td>Duración del día (días terrestres)</td>
+                <td>0d 10h 42m</td>
+            </tr>
+            <tr>
+                <td>Temperatura(max/min)</td>
+                <td>20°C/-125°C</td>
+                <td>Temperatura(max/min)</td>
+                <td>-75°C/-163°C</td>
+                <td>Temperatura(max/min)</td>
+                <td>-103°C/-167°C</td>
+            </tr>
         </tbody>
     </table>
+    <hr>
     
 </body>
 </html>

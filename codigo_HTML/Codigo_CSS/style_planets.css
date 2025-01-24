@@ -4,6 +4,15 @@ body {
     background-color: #eef;
     
 }
+.cap{
+    color: rgb(241, 182, 19);
+    font-size: 40px;
+    padding: 40px;
+}
+.tabla-planetas{
+    justify-content: stretch;
+    margin: 10px;
+}
 .h3, .h1{
     text-align: center;
 }
@@ -16,7 +25,7 @@ body {
 .atras{
     text-align: right;
 }
-.mercurio, .venus, .tierra, .marte, .jupiter{
+.mercurio, .venus, .tierra, .marte, .jupiter, .saturno{
     height: 300px;
     width: auto;
 }

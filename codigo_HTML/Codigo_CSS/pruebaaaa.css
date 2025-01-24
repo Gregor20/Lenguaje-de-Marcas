@@ -1,0 +1,111 @@
+/* Estilo general para la tabla */
+.tabla-planetas {
+    width: 100%; /* Ocupa el 100% del ancho de la página */
+    height: 100vh; /* Altura completa */
+    border-collapse: collapse; /* Colapsa bordes de celdas */
+    overflow: auto; /* Añade desplazamiento si es necesario */
+    table-layout: fixed; /* Las celdas tienen un tamaño fijo */
+    background-color: #f9f9f9; /* Fondo suave */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor de la tabla */
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 20px auto; /* Centra la tabla */
+    padding: 10px;
+}
+
+/* Estilo para las celdas */
+.tabla-planetas th, .tabla-planetas td {
+    padding: 15px; /* Espaciado interno */
+    border: 1px solid #ddd; /* Bordes suaves */
+    text-align: center; /* Centrado de texto */
+    font-size: 16px; /* Tamaño de la fuente */
+    transition: all 0.3s ease; /* Transición suave para efectos */
+}
+
+/* Efectos en los encabezados */
+.tabla-planetas th {
+    background-color: #4CAF50; /* Fondo verde */
+    color: white; /* Texto blanco */
+    font-size: 18px; /* Tamaño de fuente más grande */
+    font-weight: bold;
+    text-transform: uppercase; /* Convierte texto a mayúsculas */
+    border-top-left-radius: 10px; /* Bordes redondeados en la parte superior izquierda */
+    border-top-right-radius: 10px; /* Bordes redondeados en la parte superior derecha */
+}
+
+/* Efecto hover para las celdas */
+.tabla-planetas td:hover {
+    background-color: #f1f1f1; /* Fondo claro cuando pasa el ratón */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño de la celda */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Añade sombra sutil */
+    cursor: pointer; /* Cambia el cursor para indicar interactividad */
+}
+
+/* Efecto hover para los encabezados */
+.tabla-planetas th:hover {
+    background-color: #45a049; /* Cambio a un tono más oscuro de verde */
+    transform: scale(1.05); /* Aumenta el tamaño del encabezado */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Añade sombra más intensa */
+}
+
+/* Estilo para las imágenes de los planetas */
+.tabla-planetas img {
+    max-width: 100%; /* Mantiene las imágenes dentro del límite de su celda */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px; /* Bordes redondeados para las imágenes */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor de las imágenes */
+    transition: all 0.3s ease; /* Transición suave para efectos */
+}
+
+/* Efecto hover para las imágenes */
+.tabla-planetas img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen al pasar el ratón */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Sombra más prominente */
+}
+
+/* Estilo del caption (título) */
+.tabla-planetas caption {
+    font-size: 24px; /* Tamaño de fuente mayor */
+    font-weight: bold; /* Negrita */
+    color: #333; /* Color oscuro */
+    margin-bottom: 10px; /* Espaciado debajo del título */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    font-family: 'Arial', sans-serif; /* Fuente moderna */
+}
+
+/* Efectos en las filas (tr) */
+.tabla-planetas tr:nth-child(even) {
+    background-color: #f2f2f2; /* Fila de fondo gris claro */
+}
+
+.tabla-planetas tr:nth-child(odd) {
+    background-color: #ffffff; /* Fila de fondo blanco */
+}
+
+/* Efectos de sombra al pasar el ratón sobre las filas */
+.tabla-planetas tr:hover {
+    background-color: #e0e0e0; /* Fondo ligeramente gris cuando se pasa el ratón */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra más prominente */
+}
+
+/* Efectos responsivos */
+@media (max-width: 768px) {
+    .tabla-planetas {
+        display: block;
+        overflow-x: scroll; /* Permite el desplazamiento horizontal */
+    }
+
+    .tabla-planetas th, .tabla-planetas td {
+        display: block;
+        width: 100%; /* Las celdas ocupan todo el ancho */
+    }
+
+    .tabla-planetas td {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .tabla-planetas img {
+        width: 100px; /* Reducir el tamaño de las imágenes en pantallas pequeñas */
+        height: auto;
+    }
+}
