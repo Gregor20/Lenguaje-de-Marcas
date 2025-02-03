@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumno dni="12345678A" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="alumno.xsd">
+    <nombre>Manuel Sánchez</nombre>
+    <direccion>
+        <calle>Gran Vía</calle>
+        <numero>25</numero>
+        <ciudad>Vigo</ciudad>
+        <provincia>Pontevedra</provincia>
+    </direccion>
+    <telefono>986123456</telefono>
+    <telefono>600123456</telefono>
+</alumno>
