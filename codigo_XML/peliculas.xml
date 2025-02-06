@@ -1,26 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE peliculas [
-    <!ELEMENT peliculas (pelicula+)>
-    <!ELEMENT pelicula (nombre+, director?, año, reparto, sinopsis)>
-    <!ELEMENT nombre (#PCDATA)>
-    <!ELEMENT director (#PCDATA)>
-    <!ELEMENT año (#PCDATA)>
-    <!ELEMENT reparto (actor, actriz, actor)>
-    <!ELEMENT actor (#PCDATA)>
-    <!ELEMENT actriz (#PCDATA)>
-    <!ELEMENT sinopsis (#PCDATA)>
-
-    <!ATTLIST pelicula genero (fantastico | romance | drama | comedia | thriller) #REQUIRED>
-]>
-<peliculas>
+<peliculas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <pelicula genero="fantastico">
         <nombre>El curioso caso de Benjamin Button</nombre>
         <director>David Fincher</director>
         <año>2008</año>
         <reparto>
-            <actor>Brad Pitt</actor>
-            <actriz>Cate Blanchett</actriz>
-            <actor>Jason Flemyng</actor>            
+            <actores>
+                <actor>Brad Pitt</actor>
+                <actor>Jason Flemyng</actor>
+            </actores>
+            <actrices>
+                <actriz>Cate Blanchett</actriz>
+                <actriz>Taraji P. Henson</actriz>
+            </actrices>
         </reparto>
         <sinopsis>Un hombre (Brad Pitt) nace con ochenta años y va rejuveneciendo a medida que pasa el tiempo; es decir, en lugar de cumplir años los descumple.</sinopsis>
     </pelicula>
@@ -29,9 +21,14 @@
         <director>Robert Zemeckis</director>
         <año>1994</año>
         <reparto>
-            <actor>Tom Hanks</actor>
-            <actriz>Robin Wright</actriz>
-            <actor>Gary Sinise</actor>
+            <actores>
+                <actor>Tom Hanks</actor>
+                <actor>Mykelti Williamson</actor>
+            </actores>
+            <actrices>
+                <actriz>Robin Wright</actriz>
+                <actriz>Sally Field</actriz>
+            </actrices>
         </reparto>
         <sinopsis>Forrest Gump (Tom Hanks) sufre desde pequeño un cierto retraso mental. A pesar de todo, gracias a su tenacidad y a su buen corazón será protagonista de acontecimientos cruciales de su país durante varias décadas.</sinopsis>
     </pelicula>
@@ -40,9 +37,14 @@
         <director>Jonathan Demme</director>
         <año>1991</año>
         <reparto>
-            <actor>Anthony Hopkins</actor>
-            <actriz>Jodie Foster</actriz>
-            <actor>Scott Glenn</actor>
+            <actores>
+                <actor>Anthony Hopkins</actor>
+                <actor>Ted Levine</actor>
+            </actores>
+            <actrices>
+                <actriz>Jodie Foster</actriz>
+                <actriz>Brooke Smith</actriz>
+            </actrices>
         </reparto>
         <sinopsis>El FBI busca a "Buffalo Bill", un asesino en serie que mata a sus víctimas, todas adolescentes, después de prepararlas minuciosamente y arrancarles la piel.</sinopsis>
     </pelicula>

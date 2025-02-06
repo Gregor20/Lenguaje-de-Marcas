@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="raquetas2.xsl"?>
+<tienda>
+	<raqueta>
+		<marca>Babolat</marca>
+		<modelo>Pure Drive</modelo>
+		<anio>2012</anio>
+	</raqueta>
+    <raqueta>
+		<marca>Babolat</marca>
+		<modelo>Pure Vice</modelo>
+		<anio>2025</anio>
+	</raqueta>
+	<raqueta>
+		<marca>Yonex</marca>
+		<modelo>MPtour 5</modelo>
+		<anio>1997</anio>
+	</raqueta>
+	<raqueta>
+		<marca>Babolat</marca>
+		<modelo>Hammer</modelo>
+		<anio>2025</anio>
+	</raqueta>
+</tienda>
