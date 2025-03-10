@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="discos.xsl"?>
+<catalogo>
+	<disco>
+		<titulo>Me va la vida</titulo>
+		<artista>Julio Iglesias</artista>
+		<pais>España</pais>
+		<compañia>Kamaleon</compañia>
+		<precio>9.80</precio>
+		<anio>1985</anio>
+	</disco>
+	<disco>
+		<titulo>Grandes Exitos</titulo>
+		<artista>Un pinguino en mi ascensor</artista>
+		<pais>Portugal</pais>
+		<compañia>Pingu-records</compañia>
+		<precio>14.80</precio>
+		<anio>1992</anio>
+	</disco>
+	<disco>
+		<titulo>Unchain my heart</titulo>
+		<artista>Joe Cocker</artista>
+		<pais>USA</pais>
+		<compañia>Emi</compañia>
+		<precio>9.20</precio>
+		<anio>1987</anio>
+	</disco>
+</catalogo>

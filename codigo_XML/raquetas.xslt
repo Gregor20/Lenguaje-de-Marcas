@@ -13,17 +13,11 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <xsl:for-each select="tienda/raqueta">
+                    <xsl:for-each select="tienda/raqueta[1]">                
                         <tr>
-                            <td>
-                                <xsl:value-of select="marca"/>
-                            </td>
-                            <td>
-                                <xsl:value-of select="modelo"/>
-                            </td>
-                            <td>
-                                <xsl:value-of select="anio"/>
-                            </td>
+                            <td><xsl:value-of select="marca"/></td>
+                            <td><xsl:value-of select="modelo"/></td>
+                            <td> <xsl:value-of select="anio"/></td>
                         </tr>
                     </xsl:for-each>
                 </tbody>

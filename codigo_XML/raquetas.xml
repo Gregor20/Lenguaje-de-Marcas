@@ -21,4 +21,24 @@
 		<modelo>Hammer</modelo>
 		<anio>2000</anio>
 	</raqueta>
+    <raqueta>
+		<marca>Yoni</marca>
+		<modelo>Hulk</modelo>
+		<anio>2025</anio>
+	</raqueta>
+    <raqueta>
+		<marca>Yoni</marca>
+		<modelo>Hulk</modelo>
+		<anio>2025</anio>
+	</raqueta>
+    <raqueta>
+		<marca>Wilson</marca>
+		<modelo>Hammer</modelo>
+		<anio>2000</anio>
+	</raqueta>
+    <raqueta>
+		<marca>Grisha</marca>
+		<modelo>Koby</modelo>
+		<anio>1998</anio>
+	</raqueta>
 </tienda>
