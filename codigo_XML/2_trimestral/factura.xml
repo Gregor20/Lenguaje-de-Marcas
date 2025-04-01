@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<factura n_fac="999">
+    <datos_empresa>
+        <nombre>Informatica Total S.L.</nombre>
+        <dir>Av. Galicia</dir>
+        <poblacion cod_postal="28043">Madrid</poblacion>
+        <provincia>Madrid</provincia>
+        <cif>C-9876456</cif>
+        <telefono/>
+    </datos_empresa>
+    <datos_cliente n_cli="001">
+        <nombre>Pedro Gozalez Castro</nombre>
+        <dir_env>C. San Benito, 23</dir_env>
+        <poblacion cod_postal="28043">Madrid</poblacion>
+        <provincia>Madrid</provincia>
+    </datos_cliente>
+    <datos_factura n_ped="126" iva="21" f_pago= "efectivo" moneda="euro">
+        <fecha>2022-12-01</fecha>
+        <linea>
+            <ref>INTELCOREI5-12600</ref>
+            <desc>PROCESADOR</desc>
+            <cant>1</cant>
+            <precio>304.98</precio>
+            <importe>369.02</importe>
+        </linea>
+        <linea>
+            <ref>ASUSPRIMERB660-PLUS</ref>
+            <desc>PLACA BASE ASUS PRIME B660-PLUS D4</desc>
+            <cant>1</cant>
+            <precio>141.91</precio>
+            <importe>171.71</importe>
+        </linea>
+        <linea>
+            <ref>TFORCE-DDR4-3600MHZ</ref>
+            <desc> Team Group T-Force Delta RGB DDR4 3600MHz PC4-28800 16GB 2x8GB CL18 Negro
+            </desc>
+            <cant>2</cant>
+            <precio>91.90</precio>
+            <importe>222.39</importe>
+        </linea>
+        <linea>
+            <ref>KINGSTONA400-SSD480</ref>
+            <desc>KINGSTON A400 SSD 480 GB</desc>
+            <cant>2</cant>
+            <precio>51.3</precio>
+            <importe>124.14</importe>
+        </linea>
+        <base>732.94</base>
+        <cuota_iva>153.91</cuota_iva>
+        <total >886.85</total>
+    </datos_factura>
+</factura>
