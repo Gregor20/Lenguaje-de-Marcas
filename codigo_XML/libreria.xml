@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libreria>
+  <libro categoria="COOKING">
+    <titulo lang="en">Everyday Italian</titulo>
+    <autor>Giada De Laurentiis</autor>
+    <año>2005</año>
+    <precio>30.00</precio>
+  </libro>
+  <libro categoria="CHILDREN">
+    <titulo lang="en">Harry Potter</titulo>
+    <autor>J K. Rowling</autor>
+    <año>2005</año>
+    <precio>29.99</precio>
+  </libro>
+  <libro categoria="WEB">
+    <titulo lang="en">XQuery Kick Start</titulo>
+    <autor>James McGovern</autor>
+    <autor>Per Bothner</autor>
+    <autor>Kurt Cagle</autor>
+    <autor>James Linn</autor>
+    <autor>Vaidyanathan Nagarajan</autor>
+    <año>2003</año>
+    <precio>49.99</precio>
+  </libro>
+  <libro categoria="WEB">
+    <titulo lang="en">Learning XML</titulo>
+    <autor>Erik T. Ray</autor>
+    <año>2003</año>
+    <precio>39.95</precio>
+  </libro>
+  <libro categoria="FICTION">
+    <titulo lang="en">The Great Gatsby</titulo>
+    <autor>F. Scott Fitzgerald</autor>
+    <año>1925</año>
+    <precio>10.99</precio>
+  </libro>
+  <libro categoria="FICTION">
+    <titulo lang="en">To Kill a Mockingbird</titulo>
+    <autor>Harper Lee</autor>
+    <año>1960</año>
+    <precio>7.99</precio>
+  </libro>
+  <libro categoria="MYSTERY">
+    <titulo lang="en">Gone Girl</titulo>
+    <autor>Gillian Flynn</autor>
+    <año>2012</año>
+    <precio>15.99</precio>
+  </libro>
+  <libro categoria="SCIENCE FICTION">
+    <titulo lang="en">Dune</titulo>
+    <autor>Frank Herbert</autor>
+    <año>1965</año>
+    <precio>9.99</precio>
+  </libro>
+  <libro categoria="NONFICTION">
+    <titulo lang="en">Sapiens</titulo>
+    <autor>Yuval Noah Harari</autor>
+    <año>2011</año>
+    <precio>19.99</precio>
+  </libro>
+  <libro categoria="BIOGRAPHY">
+    <titulo lang="en">Steve Jobs</titulo>
+    <autor>Walter Isaacson</autor>
+    <año>2011</año>
+    <precio>25.99</precio>
+  </libro>
+  <libro categoria="FANTASY">
+    <titulo lang="en">The Hobbit</titulo>
+    <autor>J.R.R. Tolkien</autor>
+    <año>1937</año>
+    <precio>14.99</precio>
+  </libro>
+  <libro categoria="FANTASY">
+    <titulo lang="en">A Song of Ice and Fire</titulo>
+    <autor>George R.R. Martin</autor>
+    <año>1996</año>
+    <precio>22.99</precio>
+  </libro>
+  <libro categoria="HISTORY">
+    <titulo lang="en">Guns, Germs, and Steel</titulo>
+    <autor>Jared Diamond</autor>
+    <año>1997</año>
+    <precio>18.99</precio>
+  </libro>
+  <libro categoria="BUSINESS">
+    <titulo lang="en">The Lean Startup</titulo>
+    <autor>Eric Ries</autor>
+    <año>2011</año>
+    <precio>24.99</precio>
+  </libro>
+  <libro categoria="BUSINESS">
+    <titulo lang="en">Zero to One</titulo>
+    <autor>Peter Thiel</autor>
+    <año>2014</año>
+    <precio>20.99</precio>
+  </libro>
+  <libro categoria="HEALTH">
+    <titulo lang="en">The Body Keeps the Score</titulo>
+    <autor>Bessel van der Kolk</autor>
+    <año>2014</año>
+    <precio>18.99</precio>
+  </libro>
+  <libro categoria="PHILOSOPHY">
+    <titulo lang="en">Meditations</titulo>
+    <autor>Marcus Aurelius</autor>
+    <año>180</año>
+    <precio>9.99</precio>
+  </libro>
+  <libro categoria="TRAVEL">
+    <titulo lang="en">Into the Wild</titulo>
+    <autor>Jon Krakauer</autor>
+    <año>1996</año>
+    <precio>16.99</precio>
+  </libro>
+  <libro categoria="SCIENCE">
+    <titulo lang="en">Brief Answers to the Big Questions</titulo>
+    <autor>Stephen Hawking</autor>
+    <año>2018</año>
+    <precio>22.99</precio>
+  </libro>
+  <libro categoria="POETRY">
+    <titulo lang="en">The Waste Land</titulo>
+    <autor>T.S. Eliot</autor>
+    <año>1922</año>
+    <precio>12.99</precio>
+  </libro>
+  <libro categoria="ROMANCE">
+    <titulo lang="en">Pride and Prejudice</titulo>
+    <autor>Jane Austen</autor>
+    <año>1813</año>
+    <precio>11.99</precio>
+  </libro>
+  <libro categoria="ADVENTURE">
+    <titulo lang="en">Treasure Island</titulo>
+    <autor>Robert Louis Stevenson</autor>
+    <año>1883</año>
+    <precio>13.99</precio>
+  </libro>
+  <libro categoria="HORROR">
+    <titulo lang="en">The Shining</titulo>
+    <autor>Stephen King</autor>
+    <año>1977</año>
+    <precio>15.99</precio>
+  </libro>
+  <libro categoria="THRILLER">
+    <titulo lang="en">The Da Vinci Code</titulo>
+    <autor>Dan Brown</autor>
+    <año>2003</año>
+    <precio>21.99</precio>
+  </libro>
+  <!-- Agregando más libros para llegar a 100 -->
+  <libro categoria="FICTION">
+    <titulo lang="en">1984</titulo>
+    <autor>George Orwell</autor>
+    <año>1949</año>
+    <precio>8.99</precio>
+  </libro>
+  <libro categoria="FICTION">
+    <titulo lang="en">Brave New World</titulo>
+    <autor>Aldous Huxley</autor>
+    <año>1932</año>
+    <precio>9.99</precio>
+  </libro>
+  <libro categoria="CLASSIC">
+    <titulo lang="en">Moby Dick</titulo>
+    <autor>Herman Melville</autor>
+    <año>1851</año>
+    <precio>12.99</precio>
+  </libro>
+  <libro categoria="FICTION">
+    <titulo lang="en">The Catcher in the Rye</titulo>
+    <autor>J.D. Salinger</autor>
+    <año>1951</año>
+    <precio>10.99</precio>
+  </libro>
+  <libro categoria="FICTION">
+    <titulo lang="en">Slaughterhouse-Five</titulo>
+    <autor>Kurt Vonnegut</autor>
+    <año>1969</año>
+    <precio>9.99</precio>
+  </libro>
+  <libro categoria="MYSTERY">
+    <titulo lang="en">The Girl with the Dragon Tattoo</titulo>
+    <autor>Stieg Larsson</autor>
+    <año>2005</año>
+    <precio>14.99</precio>
+  </libro>
+  <libro categoria="SCIENCE FICTION">
+    <titulo lang="en">Neuromancer</titulo>
+    <autor>William Gibson</autor>
+    <año>1984</año>
+    <precio>12.99</precio>
+  </libro>
+  <libro categoria="SELF-HELP">
+    <titulo lang="en">Atomic Habits</titulo>
+    <autor>James Clear</autor>
+    <año>2018</año>
+    <precio>17.99</precio>
+  </libro>
+  <libro categoria="NONFICTION">
+    <titulo lang="en">Educated</titulo>
+    <autor>Tara Westover</autor>
+    <año>2018</año>
+    <precio>16.99</precio>
+  </libro>
+  <libro categoria="FICTION">
+    <titulo lang="en">Crime and Punishment</titulo>
+    <autor>Fyodor Dostoevsky</autor>
+    <año>1866</año>
+    <precio>11.99</precio>
+  </libro>
+  <libro categoria="FICTION">
+    <titulo lang="en">War and Peace</titulo>
+    <autor>Leo Tolstoy</autor>
+    <año>1869</año>
+    <precio>14.99</precio>
+  </libro>
+  <libro categoria="NONFICTION">
+    <titulo lang="en">The Power of Now</titulo>
+    <autor>Eckhart Tolle</autor>
+    <año>1997</año>
+    <precio>19.99</precio>
+  </libro>
+  <libro categoria="BIOGRAPHY">
+    <titulo lang="en">Becoming</titulo>
+    <autor>Michelle Obama</autor>
+    <año>2018</año>
+    <precio>23.99</precio>
+  </libro>
+  <libro categoria="SCIENCE FICTION">
+    <titulo lang="en">The Left Hand of Darkness</titulo>
+    <autor>Ursula K. Le Guin</autor>
+    <año>1969</año>
+    <precio>12.99</precio>
+  </libro>
+  <libro categoria="FANTASY">
+    <titulo lang="en">The Name of the Wind</titulo>
+    <autor>Patrick Rothfuss</autor>
+    <año>2007</año>
+    <precio>17.99</precio>
+  </libro>
+  <libro categoria="THRILLER">
+    <titulo lang="en">The Silent Patient</titulo>
+    <autor>Alex Michaelides</autor>
+    <año>2019</año>
+    <precio>14.99</precio>
+  </libro>
+  <libro categoria="NONFICTION">
+    <titulo lang="en">Outliers</titulo>
+    <autor>Malcolm Gladwell</autor>
+    <año>2008</año>
+    <precio>16.99</precio>
+  </libro>
+  <libro categoria="HISTORY">
+    <titulo lang="en">The History of the Ancient World</titulo>
+    <autor>Susan Wise Bauer</autor>
+    <año>2007</año>
+    <precio>24.99</precio>
+  </libro>
+  <libro categoria="PHILOSOPHY">
+    <titulo lang="en">The Republic</titulo>
+    <autor>Plato</autor>
+    <año>380 BC</año>
+    <precio>9.99</precio>
+  </libro>
+  <libro categoria="FANTASY">
+    <titulo lang="en">The Way of Kings</titulo>
+    <autor>Brandon Sanderson</autor>
+    <año>2010</año>
+    <precio>25.99</precio>
+  </libro>
+  <libro categoria="HEALTH">
+    <titulo lang="en">Why We Sleep</titulo>
+    <autor>Matthew Walker</autor>
+    <año>2017</año>
+    <precio>18.99</precio>
+  </libro>
+  <libro categoria="FICTION">
+    <titulo lang="en">The Road</titulo>
+    <autor>Cormac McCarthy</autor>
+    <año>2006</año>
+    <precio>12.99</precio>
+  </libro>
+  <libro categoria="SCIENCE FICTION">
+    <titulo lang="en">The Martian</titulo>
+    <autor>Andy Weir</autor>
+    <año>2014</año>
+    <precio>19.99</precio>
+  </libro>
+  <libro categoria="FICTION">
+    <titulo lang="en">Little Fires Everywhere</titulo>
+    <autor>Celeste Ng</autor>
+    <año>2017</año>
+    <precio>16.99</precio>
+  </libro>
+  <libro categoria="MYSTERY">
+    <titulo lang="en">Big Little Lies</titulo>
+    <autor>Liane Moriarty</autor>
+    <año>2014</año>
+    <precio>14.99</precio>
+  </libro>
+  <libro categoria="FICTION">
+    <titulo lang="en">Where the Crawdads Sing</titulo>
+    <autor>Delia Owens</autor>
+    <año>2018</año>
+    <precio>17.99</precio>
+  </libro>
+  <libro categoria="CLASSIC">
+    <titulo lang="en">Wuthering Heights</titulo>
+    <autor>Emily Brontë</autor>
+    <año>1847</año>
+    <precio>10.99</precio>
+  </libro>
+  <libro categoria="CHILDREN">
+    <titulo lang="en">The Very Hungry Caterpillar</titulo>
+    <autor>Eric Carle</autor>
+    <año>1969</año>
+    <precio>6.99</precio>
+  </libro>
+  <libro categoria="CHILDREN">
+    <titulo lang="en">The Cat in the Hat</titulo>
+    <autor>Dr. Seuss</autor>
+    <año>1957</año>
+    <precio>7.99</precio>
+  </libro>
+  <libro categoria="BUSINESS">
+    <titulo lang="en">Good to Great</titulo>
+    <autor>Jim Collins</autor>
+    <año>2001</año>
+    <precio>24.99</precio>
+  </libro>
+  <libro categoria="SELF-HELP">
+    <titulo lang="en">The 7 Habits of Highly Effective People</titulo>
+    <autor>Stephen R. Covey</autor>
+    <año>1989</año>
+    <precio>15.99</precio>
+  </libro>
+  <libro categoria="HEALTH">
+    <titulo lang="en">How Not to Die</titulo>
+    <autor>Michael Greger</autor>
+    <año>2015</año>
+    <precio>21.99</precio>
+  </libro>
+  <libro categoria="SCIENCE FICTION">
+    <titulo lang="en">The Expanse</titulo>
+    <autor>James S.A. Corey</autor>
+    <año>2011</año>
+    <precio>18.99</precio>
+  </libro>
+  <libro categoria="HISTORY">
+    <titulo lang="en">The Wright Brothers</titulo>
+    <autor>David McCullough</autor>
+    <año>2015</año>
+    <precio>19.99</precio>
+  </libro>
+  <libro categoria="FICTION">
+    <titulo lang="en">The Handmaid's Tale</titulo>
+    <autor>Margaret Atwood</autor>
+    <año>1985</año>
+    <precio>14.99</precio>
+  </libro>
+  <libro categoria="FICTION">
+    <titulo lang="en">The Night Circus</titulo>
+    <autor>Erin Morgenstern</autor>
+    <año>2011</año>
+    <precio>17.99</precio>
+  </libro>
+  <libro categoria="BIOGRAPHY">
+    <titulo lang="en">Alexander Hamilton</titulo>
+    <autor>Ron Chernow</autor>
+    <año>2004</año>
+    <precio>24.99</precio>
+  </libro>
+  <libro categoria="NONFICTION">
+    <titulo lang="en">Thinking, Fast and Slow</titulo>
+    <autor>Daniel Kahneman</autor>
+    <año>2011</año>
+    <precio>18.99</precio>
+  </libro>
+  <libro categoria="POETRY">
+    <titulo lang="en">Milk and Honey</titulo>
+    <autor>Rupi Kaur</autor>
+    <año>2014</año>
+    <precio>14.99</precio>
+  </libro>
+  <libro categoria="FANTASY">
+    <titulo lang="en">Mistborn: The Final Empire</titulo>
+    <autor>Brandon Sanderson</autor>
+    <año>2006</año>
+    <precio>15.99</precio>
+  </libro>
+  <libro categoria="MYSTERY">
+    <titulo lang="en">Sharp Objects</titulo>
+    <autor>Gillian Flynn</autor>
+    <año>2006</año>
+    <precio>13.99</precio>
+  </libro>
+  <libro categoria="FICTION">
+    <titulo lang="en">The Sun Also Rises</titulo>
+    <autor>Ernest Hemingway</autor>
+    <año>1926</año>
+    <precio>11.99</precio>
+  </libro>
+  <libro categoria="NONFICTION">
+    <titulo lang="en">The Subtle Art of Not Giving a F*ck</titulo>
+    <autor>Mark Manson</autor>
+    <año>2016</año>
+    <precio>17.99</precio>
+  </libro>
+  <libro categoria="CHILDREN">
+    <titulo lang="en">Green Eggs and Ham</titulo>
+    <autor>Dr. Seuss</autor>
+    <año>1960</año>
+    <precio>6.99</precio>
+  </libro>
+  <libro categoria="FANTASY">
+    <titulo lang="en">The Hobbit</titulo>
+    <autor>J.R.R. Tolkien</autor>
+    <año>1937</año>
+    <precio>12.99</precio>
+  </libro>
+</libreria>

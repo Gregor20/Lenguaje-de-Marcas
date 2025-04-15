@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Formulario de registro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" >
+        <link href="Codigo_CSS/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1 class="h1">Formulario</h1>
+        <fieldset class="fieldset">
+        <legend>Mi formulario</legend>
+        <form class="form" action="" method="get">
+            <label>Nombre:</label>
+            <input type="text" name="nombre" placeholder="Ingrese su nombre" maxlength="50"><br>
+            <label>Apellidos:</label>
+            <input type="text" name="apellidos" placeholder="Ingrese su apellido" maxlength="50"><br>
+            <fieldset>
+                <legend>Sexo:</legend>
+                <input type="radio" name="sexo" value="h" id="hombre"> <label for="hombre">Hombre</label> <br/>
+                <input type="radio" name="sexo" value="m" id="mujer"> <label for="mujer">Mujer</label> <br/>
+            </fieldset>
+            <!--
+            <label>Sexo:</label><br>
+            <input type="radio" name="sexo" value="h">Hombre <br/>
+            <input type="radio" name="sexo" value="m">Mujer <br/>-->
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="Ingrese su email" maxlength="75"><br>
+            <input type="checkbox" name="info" checked="checked">Informacion sobre novedades y ofertas<br>
+            <input type="checkbox" name="condiciones">Declaro haber leído las condiciones y terminos<br>
+        </form>
+        </fieldset>
+    </body>
+</html>
