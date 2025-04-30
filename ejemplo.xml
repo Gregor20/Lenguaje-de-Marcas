@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>National Geographic</title>
+        <link>https://www.nationalgeographic.es/</link>
+        <description>National Geographic - ANIMALES </description>
+        <language>es</language>
+
+        <item>
+            <title>¿Cómo saben las focas cuánto tiempo deben aguantar la respiración?</title>
+            <link>https://www.nationalgeographic.es/animales/2025/03/focas-cuanto-tiempo-aguantan-respiracion-bajo-el</link>
+            <description>Un nuevo estudio sugiere que las focas grises (Halichoerus grypus) pueden percibir el nivel de oxígeno en su sangre y que los animales cambian su comportamiento de buceo en respuesta.</description>
+            <pubDate>Fri, 21 Mar 2025 09:22:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>¿Cómo es posible que estos peces sepan detectar a sus buceadores favoritos?
+            </title>
+            <link>https://www.nationalgeographic.es/animales/2025/03/peces-saben-detectar-buceadores-favoritos</link>
+            <description>Durante años, la comunidad científica ha tenido la sensación de que los peces que observaban les devolvían la mirada. Un nuevo estudio sugiere que pueden reconocer el atuendo de un buceador.</description>
+            <pubDate>Wed, 19 Mar 2025 10:51:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>Por qué no deberías ni pensar en tocar a animales salvajes (especialmente wombats)
+            </title>
+            <link>https://www.nationalgeographic.es/animales/2025/03/por-que-no-deberias-tocar-animales-salvajes-especialmente-wombats</link>
+            <description>Está circulando un vídeo de una mujer que le quita a su madre una cría de wombat. Esto es lo que los expertos quieren que sepamos sobre los peligros de interferir con la vida salvaje, aunque parezca algo inofensivo.</description>
+            <pubDate>Mon, 17 Mar 2025 08:41:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
