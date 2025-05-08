@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        coment{
+            width: 5%;
+            height: 100px;
+        }
+        submit{
+            
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Mi formulario</h1>
+            <form action="" method="get">
+                <fieldset>
+                    <legend>Información personal</legend>
+                        <p>Nombre</p>
+                        <input type="text" id="nombre" name="nombre">
+                        <p>Apellidos</p>
+                        <input type="text" id="apellidos" name="apellidos">
+                        <p>Correo electrónico</p>
+                        <input type="email" id="email" name="email">
+                        <p>Teléfono</p>
+                        <input type="text" id="telefono" name="telefono">
+                </fieldset>
+                <fieldset>
+                    <legend>Comentarios</legend><br>
+                    <textarea name="textarea"></textarea><br>
+                    <input type="submit" id="submit">
+                </fieldset>
+            </form>
+    </div>
+</body>
+</html>

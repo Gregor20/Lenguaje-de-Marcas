@@ -4,7 +4,7 @@
     <!ELEMENT emisor (nombre+, volumenventas?)>
     <!ELEMENT nombre (#PCDATA)>
     <!ELEMENT volumenventas (#PCDATA)>
-    <!ELEMENT pagador (nombre+, volumenventas?)>
+    <!ELEMENT pagador (nombre, volumenventas?)>
     <!ELEMENT importe (#PCDATA)>
     
 
